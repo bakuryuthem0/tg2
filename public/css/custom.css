@@ -1,0 +1,575 @@
+/*-------------Header-----------*/
+#menuF{
+	opacity:1 !important;
+	/*display:none !important;*/
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: rgb(199,199,198) !important;
+	color:black !important;
+}
+#menu {
+	display:inline-block !important;
+	float: none !important;
+	width: 100% !important;
+}
+/*a los 991px deberia cambiar a tablet*/
+
+#menu li {
+	width: 20% !important;
+	padding: 0px 16px;
+	border-right: none;
+}
+
+.logo
+{
+	margin-top: 50px !important;
+	height: 75px;
+	width: 175px !important;
+}
+.logo div
+{
+	height: 100%;
+}
+.logo img
+{
+	width: 100%;
+	height: 100%;
+}
+.menusera{
+	margin-top: 6px;
+	width: 70%;
+}
+@media(max-width: 1000px){
+	#menu li {
+		padding: 0px !important;
+	}
+}
+@media (min-width: 768px){
+	.container {
+		width: 90%;
+	}
+}
+@media(max-width: 991px){
+	
+	.icon-bar
+	{
+		padding: 0px !important;
+		margin: 0px !important;
+		font-size: 2em;
+	}
+	.menusera
+	{
+		left: 20% !important;
+		top: 100% !important;
+		position: absolute;
+		display: none;
+		opacity: 0;
+		height: 290px;
+		background: white;
+		width: 58.666667% !important;
+		z-index: 1000;
+		
+	}
+	#menu 
+	{
+		margin-top: 1em;
+		padding: 0px !important;
+	}
+	#menu li
+	{
+		padding: 1em 0px !important;
+		display:block;
+		width: 100% !important;
+		border-bottom: 2px solid rgba(0,0,0,0.8);
+	}
+	.navbar-toggle
+	{
+		margin-top: 55px;
+		margin-bottom: 0px;
+		width: 35px;
+		height: 35px;
+		background: white;
+		float: right;
+		padding: 5px 6px !important;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.navbar-toggle span
+	{
+		width: 100% !important;
+		height: 100% !important;
+	}
+}
+@media(min-width: 992px)
+{
+	.navbar-toggle
+	{
+		display: none;
+	}
+}
+	
+/*-------------End-----------*/
+/*--------------Banner--------*/
+.cuadro
+{
+	width: 100%;
+	float: left;
+	
+}
+#banner
+{
+	width: 100%;
+	padding: 0px !important;
+}
+#banner img
+{
+	height:100%;
+	width: 100%;
+}
+
+/*-------------End-----------*/
+/*--------------Servicios--------*/
+aside
+{
+	height: 100%;
+	width: 40%;
+	
+	border-radius: 0px 8px 8px 0px;
+	float: left;
+}
+#camera_wrap_1
+{
+	height: 100% !important;
+	margin-top: 0px !important;
+}
+#info_der
+{
+	height: 100%;
+	background: pink;
+	width: 60%;
+	padding: 1em 2em 2em 2em;
+	margin: 0px;
+	border-radius: 8px 0px 0px 8px;
+	float: left;
+	text-align: justify;
+
+}
+#project
+{
+	background-image: url(../images/fondo10-01.png) !important;
+	background-attachment: fixed;
+	padding-bottom: 4em;
+}
+#titulo_servicio img
+{
+	width: 100%;
+}
+.camera_pag
+{
+	margin-top: -4em !important;
+}
+
+.galeria
+{
+	height: 100% !important;
+}
+.info_serv
+{
+	padding: 0px !important;
+	border-radius: 8px;
+	height: 300px;
+	border: 1px solid black;
+}
+.img-responsive div
+{
+	margin-top: -100% !important;
+}
+div .nada
+{
+	width: 100% !important;
+	height: auto !important;
+	vertical-align: top !important;
+}
+.portfolio_block
+{
+	margin-bottom: 2em !important;
+}
+.servicio
+{
+	margin: 0px 1em;
+	vertical-align: top;
+	display: inline-block;
+	background-size: 100% 100% !important;
+	width: 300px;
+	height: 170px;
+	cursor: pointer;
+	margin-left: 3em;
+	margin-bottom: 2em;
+	border-radius: 16px;
+
+}
+.servicio img
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 16px;
+}
+/*-------------End-----------*/
+/*--------------Quienes somos--------*/
+#about{
+	background-image:url('../images/fondo20-01.png');
+	background-attachment: fixed;
+	padding-bottom: 4em;
+}
+#banda
+{
+	box-shadow: 0px 0px 10px 2px black;
+	height:120px;
+	width: 100%;
+	margin-top: 2em;
+	background: rgba(0,0,0,0.8);
+}
+#bot
+{
+	height: 35px;
+	width: 100%;
+}
+#cont_palabra
+{
+	height: 100%;
+	width: 400px;
+	margin: 0px auto;
+}
+#mid
+{
+	height: 45px;
+	width: 100%;
+}
+#mini_gif
+{
+	width: 100%;
+	height: 80px;
+	background: black;
+	float: left;
+	margin-top: 2em;
+}
+#refran
+{
+	width: 55%;
+	height: 80px;
+	margin: 0px auto;
+	margin-top: 4em;
+}
+#refran img
+{
+	width: 100%;
+	height: 100%;
+}
+#T
+{
+	margin-left: 20%;
+}
+#titulo_nosotros
+{
+	margin-bottom: 2em;
+}
+#titulo_nosotros img
+{
+	width: 100%;
+}
+#top
+{
+	margin: 0.5em;
+	width: 100%;
+	height: 30px;
+}
+.about1
+{
+	text-align: left !important;
+}
+.about1 h3
+{
+	font-size: 2em;
+}
+.about1 p
+{
+	color: black !important;
+}
+.Fresh
+{
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.letra
+{
+	font-size: 1.5em;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0px;
+	margin-left: 5px;
+	cursor: pointer;
+	color: rgb(33,163,177);
+}
+.palabra
+{
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	opacity: 0;
+	font-size: 0.6em;
+}
+/*-------------End-----------*/
+/*--------------Portafolio--------*/
+#news
+{
+	background-image: url('../images/fondo30-01.png');
+	background-attachment: fixed;
+}
+#titulo_portafolio
+{
+	width: 600px !important;
+}
+#titulo_portafolio img
+{
+	width: 100%;
+	height: 100%;
+}
+/*-------------End-----------*/
+/*-------------Contacto--------*/
+#contact
+{
+	background-image: url('../images/fondo60-01.png'); 
+	background-attachment: fixed; 
+}
+#titulo_contacto
+{
+	width: 550px;
+}
+#titulo_contacto img
+{
+	width: 100%;
+	height: 100%;
+}
+.cont
+{
+	margin-left: 15% !important;
+}
+.forma
+{
+	width: 50% !important;
+}
+/*-------------End-----------*/
+/*-------------Contacto/footer--------*/
+
+#contactenos
+{
+	height: 10% !important;
+	width: 100%;
+	background: url('../images/fondo de pie de pagina-01.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#cont_contacto
+{
+	float: left;	
+	width: 300px;
+}
+#cont_nosotros
+{
+	float: right;
+	margin-left: 5%;
+	width: 175px;		
+}
+#cont_servicios
+{
+	float: left;
+	margin-left: 10%;	
+}
+#face
+{
+	background: url('../images/facebook-01.png');
+	background-size: 100% 100%; 
+}
+#fondo_negro
+{
+	background: rgba(0,0,0,0.9);
+	width: 100%;
+	height: 100%;
+}
+#foot
+{	
+	margin: 0px auto;
+	height: 80%;
+	width: 90%;
+}
+#gplu
+{
+	background: url('../images/google mas-01.png');
+	background-size: 100% 100%;
+}
+#redes
+{
+	width: 400px;
+	height: 20%;
+	margin: 0px auto;
+}
+#twit
+{
+	background: url('../images/twitter-01.png');
+	background-size: 100% 100%;
+}
+.cont,.forma
+{
+	margin-bottom: 3em !important;
+}
+.contac
+{
+	float: left;
+	color: white;
+	line-height: 130%;		
+	text-align: left;	
+	font-size: 1em;
+}
+.cpy
+{
+	text-align: center;
+	color: white;
+}
+.downLine
+{
+	margin-top: 2em !important;
+}
+.footer
+{
+	min-height: 300px;
+}
+.icon
+{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin: 0px;
+	padding:0px;
+	
+}
+.info
+{
+	vertical-align: top;
+	display: inline-block;
+	width: 300px;
+	color: white;
+	text-align: left;
+}
+.info_titulo
+{
+	margin-left: 1em;
+	color: rgb(33,163,177);
+	text-align: left;
+}
+.link_inf
+{
+	text-decoration: none;
+	color: rgb(33,163,177);
+	transition:0.5s color;
+	-webkit-transition:0.5s color;
+	-moz-transition:0.5s color;
+	-o-transition:0.5s color;
+}
+.link_inf:hover
+{
+	text-decoration: none;
+	color: #fff;
+
+}
+.redes_sociales
+{
+	float: left;
+	width: 90px;
+	height: 80px;
+	margin-left: 1em;
+}
+/*-------------End-----------*/
+/*--------------Se Repiten--------*/
+a
+{
+	text-decoration: none;
+}
+
+.Ama
+{
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+.titulos
+{
+	border: 1px solid black;
+	margin: 0px auto;
+	width: 500px;
+	height: 150px;
+}
+
+/*-------------End-----------*/
+/*------------Pagina servicios*/
+		body,html,aside
+		{
+			font-size: 16px;
+			padding: 0px;
+			margin: 0px;
+		}
+		#cont_trio
+		{
+			width: 100%;
+			height: 300px;
+		}
+		#desc
+		{
+			border-radius: 8px 0px 0px 8px;
+			height: 100%;
+			overflow: hidden;
+			width: 60%;
+			vertical-align: top;
+			display: inline-block;
+		}
+		#imagen
+		{
+			height: 99.9%;
+			width: 40%;
+			vertical-align: top;
+			display: inline-block;
+			background: green;
+		}
+		#pagina_aparte
+		{
+			margin-top: 4em !important;
+		}
+		#text
+		{
+			width: 80%;
+			padding: 1em 1em 2em 2em;
+			background-color: black;
+			border-radius: 8px;
+		}
+		.h_titulo
+		{
+			font-size: 3em;
+			font-weight: bold;
+			color: rgb(33,163,177);
+		}
+		.loader
+		{
+			position: relative;
+			left: 50%;
+			top: 30%;
+		}
+		.titulo
+		{
+			border: 1px solid black;
+			width: 400px;
+			height: 100px;
+		}
+/*-------------End----------*/
