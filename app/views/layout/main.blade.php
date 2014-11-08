@@ -28,18 +28,18 @@
 						<div class="logo col-md-4">
 							<div>
 								<a href="#">
-									<img src="{{ URL::to('images/-01.png') }}">
+									<img src="{{ URL::to('images/logo-01.png') }}">
 								</a>
 							</div>
 						</div>
 						<div class="col-md-8 menusera">
 							<div class="navmenu"style="text-align: center;">
 								<ul id="menu">
-									<li class="active" ><a href="#home">Inicio</a></li>
-									<li><a href="#project">Servicios</a></li>
-									<li><a href="#about">Quienes somos</a></li>
-									<li><a href="#news">Portafolio</a></li>
-									<li class="last"><a href="#contact">Contactenos</a></li>
+									<li class="active" ><a href="#home"><h4>INICIO</h4><h5>todo comienza aqui</h5></a></li>
+									<li><a href="#project"><h4>SERVICIOS</h4><h5>que hacemos</h5></a></li>
+									<li><a href="#about"><h4>QUIENES SOMOS</h4><h5>nuestro equipo</h5></a></li>
+									<li><a href="#news"><h4>PORTAFOLIO</h4><h5>nuestros clientes</h5></a></li>
+									<li class="last"><a href="#contact"><h4>CONTACTO</h4><h5>solicte presupuesto</h5></a></li>
 									<!--li><a href="#features">Features</a></li-->
 								</ul>
 							</div>

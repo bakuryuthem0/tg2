@@ -6,26 +6,42 @@
 	padding-top: 1em;
 	padding-bottom: 1em;
 	background: rgb(199,199,198) !important;
-	color:black !important;
+	
 }
 #menu {
 	display:inline-block !important;
 	float: none !important;
 	width: 100% !important;
+	margin-top: 45px !important;
+	margin-bottom: 0px !important;
 }
 /*a los 991px deberia cambiar a tablet*/
-
-#menu li {
+#menu li
+{
+	border-right: 0px !important;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+#menu li a{
 	width: 20% !important;
 	padding: 0px 16px;
-	border-right: none;
-}
+	border-right: 0px;
+	color:black;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
 
+}
+#menu li a:hover
+{
+	color: white;
+}
 .logo
 {
 	margin-top: 50px !important;
-	height: 75px;
-	width: 175px !important;
+	height: 110px;
+	width: 225px !important;
 }
 .logo div
 {
@@ -38,7 +54,7 @@
 }
 .menusera{
 	margin-top: 6px;
-	width: 70%;
+	width: 80%;
 }
 @media(max-width: 1000px){
 	#menu li {
